@@ -1,0 +1,610 @@
+{
+	"SBI_dat": [{
+			"columnName": "ProductCode",
+			"columnSize": 4,
+			"columnDataType": "String",
+			"columnMandatory": "yes",
+			"columnStartIndex": 8,
+			"columnEndIndex": 11
+		},
+		{
+			"columnName": "Currency",
+			"columnSize": 3,
+			"columnDataType": "String",
+			"columnMandatory": "yes",
+			"columnStartIndex": 15,
+			"columnEndIndex": 17
+		},
+		{
+			"columnName": "Amount",
+			"columnSize": 3,
+			"columnDataType": "Double",
+			"columnMandatory": "yes",
+			"columnStartIndex": 12,
+			"columnEndIndex": 14
+		},
+		{
+			"columnName": "Date",
+			"columnSize": 8,
+			"columnDataType": "Date",
+			"columnMandatory": "no",
+			"columnStartIndex": 0,
+			"columnEndIndex": 7
+		}
+	],
+	"2_dat": [{
+			"columnName": "ProductCode",
+			"columnSize": 4,
+			"columnDataType": "String",
+			"columnMandatory": "yes",
+			"columnStartIndex": 0,
+			"columnEndIndex": 3
+		},
+		{
+			"columnName": "Currency",
+			"columnSize": 3,
+			"columnDataType": "String",
+			"columnMandatory": "yes",
+			"columnStartIndex": 4,
+			"columnEndIndex": 6
+		},
+		{
+			"columnName": "Amount",
+			"columnSize": 3,
+			"columnDataType": "Double",
+			"columnMandatory": "yes",
+			"columnStartIndex": 7,
+			"columnEndIndex": 9
+		},
+		{
+			"columnName": "Date",
+			"columnSize": 8,
+			"columnDataType": "Date",
+			"columnMandatory": "no",
+			"columnStartIndex": 10,
+			"columnEndIndex": 17
+		}
+	],
+	"HDFC_dat": [{
+			"columnName": "ProductCode",
+			"columnSize": 4,
+			"columnDataType": "String",
+			"columnMandatory": "yes",
+			"columnStartIndex": 0,
+			"columnEndIndex": 3
+		},
+		{
+			"columnName": "Currency",
+			"columnSize": 3,
+			"columnDataType": "String",
+			"columnMandatory": "yes",
+			"columnStartIndex": 4,
+			"columnEndIndex": 6
+		},
+		{
+			"columnName": "Amount",
+			"columnSize": 3,
+			"columnDataType": "Double",
+			"columnMandatory": "yes",
+			"columnStartIndex": 7,
+			"columnEndIndex": 9
+		},
+		{
+			"columnName": "Date",
+			"columnSize": 8,
+			"columnDataType": "Date",
+			"columnMandatory": "no",
+			"columnStartIndex": 10,
+			"columnEndIndex": 17
+		}
+	],
+	"ICICI_xlsx": [{
+			"columnName": "ProductCode",
+			"cellIndex": 0,
+			"columnSize": 4,
+			"columnDataType": "String",
+			"columnMandatory": "yes"
+		},
+		{
+			"columnName": "Currency",
+			"cellIndex": 1,
+			"columnSize": 3,
+			"columnDataType": "String",
+			"columnMandatory": "yes"
+		},
+		{
+			"columnName": "Amount",
+			"cellIndex": 2,
+			"columnSize": 3,
+			"columnDataType": "Double",
+			"columnMandatory": "yes"
+		},
+		{
+			"columnName": "Date",
+			"cellIndex": 3,
+			"columnSize": 8,
+			"columnDataType": "Date",
+			"columnMandatory": "no"
+		}
+	],
+	"HSBC_xlsx": [{
+			"columnName": "ProductCode",
+			"cellIndex": 1,
+			"columnSize": 4,
+			"columnDataType": "String",
+			"columnMandatory": "yes"
+		},
+		{
+			"columnName": "Currency",
+			"cellIndex": 3,
+			"columnSize": 3,
+			"columnDataType": "String",
+			"columnMandatory": "yes"
+		},
+		{
+			"columnName": "Amount",
+			"cellIndex": 2,
+			"columnSize": 3,
+			"columnDataType": "Double",
+			"columnMandatory": "yes"
+		},
+		{
+			"columnName": "Date",
+			"cellIndex": 0,
+			"columnSize": 8,
+			"columnDataType": "Date",
+			"columnMandatory": "no"
+		}
+	],
+	"HSBC_xls": [{
+			"columnName": "ProductCode",
+			"cellIndex": 1,
+			"columnSize": 4,
+			"columnDataType": "String",
+			"columnMandatory": "yes"
+		},
+		{
+			"columnName": "Currency",
+			"cellIndex": 3,
+			"columnSize": 3,
+			"columnDataType": "String",
+			"columnMandatory": "yes"
+		},
+		{
+			"columnName": "Amount",
+			"cellIndex": 2,
+			"columnSize": 3,
+			"columnDataType": "Double",
+			"columnMandatory": "yes"
+		},
+		{
+			"columnName": "Date",
+			"cellIndex": 0,
+			"columnSize": 8,
+			"columnDataType": "Date",
+			"columnMandatory": "no"
+		}
+	],
+	"ICICI_csv": [{
+			"columnName": "ProductCode",
+			"cellIndex": 0,
+			"columnSize": 4,
+			"columnDataType": "String",
+			"columnMandatory": "yes"
+		},
+		{
+			"columnName": "Currency",
+			"cellIndex": 1,
+			"columnSize": 3,
+			"columnDataType": "String",
+			"columnMandatory": "yes"
+		},
+		{
+			"columnName": "Amount",
+			"cellIndex": 2,
+			"columnSize": 3,
+			"columnDataType": "Double",
+			"columnMandatory": "yes"
+		},
+		{
+			"columnName": "Date",
+			"cellIndex": 3,
+			"columnSize": 8,
+			"columnDataType": "Date",
+			"columnMandatory": "no"
+		}
+	],
+	"HSBC_csv": [{
+			"columnName": "ProductCode",
+			"cellIndex": 1,
+			"columnSize": 4,
+			"columnDataType": "String",
+			"columnMandatory": "yes"
+		},
+		{
+			"columnName": "Currency",
+			"cellIndex": 3,
+			"columnSize": 3,
+			"columnDataType": "String",
+			"columnMandatory": "yes"
+		},
+		{
+			"columnName": "Amount",
+			"cellIndex": 2,
+			"columnSize": 3,
+			"columnDataType": "Double",
+			"columnMandatory": "yes"
+		},
+		{
+			"columnName": "Date",
+			"cellIndex": 0,
+			"columnSize": 8,
+			"columnDataType": "Date",
+			"columnMandatory": "no"
+		}
+	],
+	"tradeDummyFn_dat": [{
+			"columnName": "orderId",
+			"dispname": "Order ID",
+			"type": "input",
+			"columnStartIndex": 1,
+			"columnSize": 20,
+			"source": "",
+			"comment": "The valid order ID maintained in the system"
+		},
+		{
+			"columnName": "extOrderNo",
+			"dispname": "External Order No.",
+			"type": "input",
+			"columnStartIndex": 21,
+			"columnSize": 20,
+			"source": "",
+			"comment": "This is the external Order No. for which confirmation is provided"
+		},
+		{
+			"columnName": "brokerCode",
+			"dispname": "Broker Code",
+			"type": "input",
+			"columnStartIndex": 41,
+			"columnSize": 9,
+			"source": "",
+			"comment": "The valid broker maintained in the system"
+		},
+		{
+			"columnName": "exchangeCode",
+			"dispname": "Exchange Code",
+			"type": "input",
+			"columnStartIndex": 50,
+			"columnSize": 10,
+			"source": "",
+			"comment": "This is the external code maintained for the broker"
+		},
+		{
+			"columnName": "optionCode",
+			"dispname": "Option Code",
+			"type": "input",
+			"columnStartIndex": 60,
+			"columnSize": 16,
+			"source": "",
+			"comment": "A valid Option Code in the system"
+		},
+		{
+			"columnName": "tranType",
+			"dispname": "Transaction type",
+			"type": "input",
+			"columnStartIndex": 76,
+			"columnSize": 1,
+			"source": "",
+			"comment": "The transaction type for the order confirmation being uploaded in the system"
+		},
+		{
+			"columnName": "tranSubType",
+			"dispname": "Transaction subtype",
+			"type": "input",
+			"columnStartIndex": 77,
+			"columnSize": 3,
+			"source": "",
+			"comment": "The transaction sub type of the order for which confirmation is being uploaded"
+		},
+		{
+			"columnName": "orderNoOfContracts",
+			"dispname": "Order No. Of Contracts",
+			"type": "ninput",
+			"columnStartIndex": 80,
+			"columnSize": 9,
+			"source": "",
+			"comment": "The number of Contracts placed"
+		},
+		{
+			"columnName": "contractCCY",
+			"dispname": "Contract CCY",
+			"type": "input",
+			"columnStartIndex": 89,
+			"columnSize": 3,
+			"source": "",
+			"comment": "Currency of the Contract in which the Price is quoted"
+		},
+		{
+			"columnName": "brokerExtCode",
+			"dispname": "Broker External Code",
+			"type": "input",
+			"columnStartIndex": 92,
+			"columnSize": 9,
+			"source": "",
+			"comment": "Broker External Code"
+		},
+		{
+			"columnName": "confNoOfContracts",
+			"dispname": "Confirmed No. Of Contracts",
+			"type": "ninput",
+			"columnStartIndex": 101,
+			"columnSize": 9,
+			"source": "",
+			"comment": "The No. Of Contracts executed by the broker at the exchange"
+		},
+		{
+			"columnName": "confPrice",
+			"dispname": "Confirmation price",
+			"type": "ninput",
+			"columnStartIndex": 110,
+			"columnSize": 17,
+			"source": "",
+			"comment": "The price at which the Trade has been executed"
+		},
+		{
+			"columnName": "tradeConfDate",
+			"dispname": "Trade Confirmation date",
+			"type": "input",
+			"columnStartIndex": 127,
+			"columnSize": 10,
+			"source": "",
+			"comment": "The date on which the Trade has been executed"
+		},
+		{
+			"columnName": "exchangeTradeNum",
+			"dispname": "Exchange Trade no",
+			"type": "input",
+			"columnStartIndex": 137,
+			"columnSize": 20,
+			"source": "",
+			"comment": "The Trade number given by the Exchange on trade confirmation.\nThis is given by the broker in the trade confirmation file."
+		},
+		{
+			"columnName": "brokerFee",
+			"dispname": "Broker Fee",
+			"type": "ninput",
+			"columnStartIndex": 181,
+			"columnSize": 17,
+			"source": "",
+			"comment": "Broker Fee field"
+		},
+		{
+			"columnName": "tradeSettlementDate",
+			"dispname": "Trade Settlement Date",
+			"type": "input",
+			"columnStartIndex": 198,
+			"columnSize": 10,
+			"source": "",
+			"comment": "Trade Settlement Date field"
+		}
+	],
+
+	"fetchOPTradeDtls_dat": [{
+		"columnName": "opTradeCrit.orderId",
+		"dispname": "Order ID",
+		"type": "input",
+		"columnStartIndex": 1,
+		"columnSize": 20,
+		"source": "",
+		"comment": "The valid order ID maintained in the system"
+	}],
+
+	"addOPTradeDtls_dat": [{
+			"columnName": "opTradeCrit.orderId",
+			"dispname": "Order ID",
+			"type": "input",
+			"columnStartIndex": 1,
+			"columnSize": 20,
+			"source": "",
+			"comment": "The valid order ID maintained in the system"
+		},
+		{
+			"columnName": "opTradeDtls.confNoOfContracts",
+			"dispname": "Confirmed No. Of Contracts",
+			"type": "ninput",
+			"columnStartIndex": 101,
+			"columnSize": 9,
+			"source": "",
+			"comment": "The No. Of Contracts executed by the broker at the exchange"
+		},
+		{
+			"columnName": "opTradeDtls.confPrice",
+			"dispname": "Confirmation price",
+			"type": "ninput",
+			"columnStartIndex": 110,
+			"columnSize": 17,
+			"source": "",
+			"comment": "The price at which the Trade has been executed"
+		},
+		{
+			"columnName": "opTradeDtls.tradeConfDate",
+			"dispname": "Trade Confirmation date",
+			"type": "input",
+			"columnStartIndex": 127,
+			"columnSize": 10,
+			"source": "",
+			"comment": "The date on which the Trade has been executed"
+		},
+		{
+			"columnName": "opTradeDtls.exchngTradeNum",
+			"dispname": "Exchange Trade no",
+			"type": "input",
+			"columnStartIndex": 137,
+			"columnSize": 20,
+			"source": "",
+			"comment": "The Trade number given by the Exchange on trade confirmation.\nThis is given by the broker in the trade confirmation file."
+		},
+		{
+			"columnName": "opTradeDtls.confTimeHH",
+			"dispname": "Confirmation Time(HH)",
+			"type": "input",
+			"columnStartIndex": 157,
+			"columnSize": 2,
+			"source": "",
+			"comment": "Confirmation Time field in hours"
+		},
+		{
+			"columnName": "opTradeDtls.confTimeMM",
+			"dispname": "Confirmation Time(MM)",
+			"type": "input",
+			"columnStartIndex": 159,
+			"columnSize": 2,
+			"source": "",
+			"comment": "Confirmation Time field in minutes"
+		},
+		{
+			"columnName": "opTradeDtls.exchngSettlementNo",
+			"dispname": "Exchange Settlement No.",
+			"type": "input",
+			"columnStartIndex": 161,
+			"columnSize": 20,
+			"source": "",
+			"comment": "Exchange Settlement No. field"
+		},
+		{
+			"columnName": "opTradeDtls.brokerFee",
+			"dispname": "Broker Fee",
+			"type": "ninput",
+			"columnStartIndex": 181,
+			"columnSize": 17,
+			"source": "",
+			"comment": "Broker Fee field"
+		},
+		{
+			"columnName": "opTradeDtls.tradeSettlementDate",
+			"dispname": "Trade Settlement Date",
+			"type": "input",
+			"columnStartIndex": 198,
+			"columnSize": 10,
+			"source": "",
+			"comment": "Trade Settlement Date field"
+		},
+		{
+			"columnName": "opTradeDtls.tax1",
+			"dispname": "Tax1",
+			"type": "input",
+			"columnStartIndex": 208,
+			"columnSize": 17,
+			"source": "",
+			"comment": " Additional tax fields to be captured"
+		},
+		{
+			"columnName": "opTradeDtls.tax2",
+			"dispname": "Tax2",
+			"type": "input",
+			"columnStartIndex": 225,
+			"columnSize": 17,
+			"source": "",
+			"comment": " Additional tax fields to be captured"
+		},
+		{
+			"columnName": "opTradeDtls.tax3",
+			"dispname": "Tax3",
+			"type": "input",
+			"columnStartIndex": 242,
+			"columnSize": 17,
+			"source": "",
+			"comment": " Additional tax fields to be captured"
+		},
+		{
+			"columnName": "opTradeDtls.tax4",
+			"dispname": "Tax4",
+			"type": "input",
+			"columnStartIndex": 259,
+			"columnSize": 17,
+			"source": "",
+			"comment": " Additional tax fields to be captured"
+		},
+		{
+			"columnName": "opTradeDtls.opTradeAddtlDtls.tax5",
+			"dispname": "Tax5",
+			"type": "input",
+			"columnStartIndex": 276,
+			"columnSize": 17,
+			"source": "",
+			"comment": " Additional tax fields to be captured"
+		},
+		{
+			"columnName": "opTradeDtls.opTradeAddtlDtls.tax6",
+			"dispname": "Tax6",
+			"type": "input",
+			"columnStartIndex": 293,
+			"columnSize": 17,
+			"source": "",
+			"comment": " Additional tax fields to be captured"
+		},
+		{
+			"columnName": "opTradeDtls.opTradeAddtlDtls.tax7",
+			"dispname": "Tax7",
+			"type": "input",
+			"columnStartIndex": 310,
+			"columnSize": 17,
+			"source": "",
+			"comment": " Additional tax fields to be captured"
+		},
+		{
+			"columnName": "opTradeDtls.opTradeAddtlDtls.tax8",
+			"dispname": "Tax8",
+			"type": "input",
+			"columnStartIndex": 327,
+			"columnSize": 17,
+			"source": "",
+			"comment": " Additional tax fields to be captured"
+		},
+		{
+			"columnName": "opTradeDtls.opTradeAddtlDtls.tax9",
+			"dispname": "Tax9",
+			"type": "input",
+			"columnStartIndex": 344,
+			"columnSize": 17,
+			"source": "",
+			"comment": " Additional tax fields to be captured"
+		},
+		{
+			"columnName": "opTradeDtls.opTradeAddtlDtls.tax10",
+			"dispname": "Tax10",
+			"type": "input",
+			"columnStartIndex": 361,
+			"columnSize": 17,
+			"source": "",
+			"comment": " Additional tax fields to be captured"
+		},
+		{
+			"columnName": "opTradeDtls.opTradeAddtlDtls.tax11",
+			"dispname": "Tax11",
+			"type": "input",
+			"columnStartIndex": 378,
+			"columnSize": 17,
+			"source": "",
+			"comment": " Additional tax fields to be captured"
+		},
+		{
+			"columnName": "opTradeDtls.opTradeAddtlDtls.tax12",
+			"dispname": "Tax12",
+			"type": "input",
+			"columnStartIndex": 395,
+			"columnSize": 17,
+			"source": "",
+			"comment": " Additional tax fields to be captured"
+		},
+		{
+			"columnName": "opTradeDtls.remarks",
+			"dispname": "Remarks",
+			"type": "input",
+			"columnStartIndex": 412,
+			"columnSize": 255,
+			"source": "",
+			"comment": "Remarks for the Trade confirmation being confirmed"
+		}
+	]
+}
